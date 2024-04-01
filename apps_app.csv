@@ -1,0 +1,11 @@
+_id,app_name,data_category,id,privacy_type
+64556cb7d91088b53b341eae,Instagram,B,1,L
+64556d510be962c4ecb97a39,Twitter,UD,2,L
+64556d590be962c4ecb97a3b,Tumblr,B,3,NL
+64556d650be962c4ecb97a3d,YouTube,CI,4,L
+64556d700be962c4ecb97a3f,Goodreads,P,5,L
+64556d790be962c4ecb97a41,TikTok,SH,6,T
+64556d870be962c4ecb97a43,Chess.com,C,7,NL
+64556d8d0be962c4ecb97a45,Facebook,B,8,T
+64556d9a0be962c4ecb97a47,Snapchat,C,9,NL
+64556da70be962c4ecb97a49,Discord,UD,10,L

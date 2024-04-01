@@ -1,0 +1,113 @@
+.hyperlink{
+    color: blue;
+    cursor: pointer;
+}
+.hyperlink:hover{
+    text-decoration: underline;
+}
+.box{
+    position: absolute;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    left: 35%;
+    top: 30%;
+}
+#tableNavButtons{
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    width: 20%;
+    margin-left: 40%;
+}
+#currPage{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nextButton{
+    margin-left: auto;
+    margin-right: 0%;
+}
+.prevButton{
+    margin-right: auto;
+    margin-left: 0%;
+}
+.whiteColor{
+    color: aliceblue;
+}
+.redBorder{
+    border: 2px solid red;
+}
+.blackBorder{
+    border: 2px solid black;
+}
+#moreInfo{
+    position: absolute;
+    right: -5%;
+    top: 25%;
+}
+.alignRight{
+    text-align: right;
+    white-space: pre-wrap;
+}
+#siteDescription{
+    position: relative;
+}
+.removePadding{
+    margin-left: 0;
+    padding-left: 0;
+}
+#timeline{
+    display: flex;
+    flex-direction: column;
+}
+.timelineNodeContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.timelineNodeContent{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.timelineNodeContainer:nth-child(even) .timelineNodeContent .timelineNodeInfo{
+    justify-content: flex-start;
+}
+.timelineNodeInfo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.node{
+    position: absolute;
+    right: calc(50% - 14px);
+    top: 25%;
+}
+#timelineLine{
+    position: absolute;
+    border: 2px solid red;
+    height: 100%;
+    z-index: 0;
+    width: 0;
+    left: 50%;
+}
+.labelLine{
+    position: absolute;
+    border: 2px solid red;
+    top: 50%;
+    height: 0px;
+    z-index: 0;
+    width: 50%;
+}
+.timelineNodeContainer:nth-child(odd) .timelineNodeContent .labelLine{
+    left: 50%;
+}
+.timelineButton{
+    left: -36px;
+}
+.centerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

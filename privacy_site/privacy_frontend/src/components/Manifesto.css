@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gwComplement{
+    background-color: #10588B;
+}
+
+.gwText{
+    color: #e4cf9f;
+}
+
+.gwBackground{
+    background-color: #e4cf9f;
+}
+
+.hover:hover{
+    cursor:pointer;
+    color:#e4cf9f
+}
+
+.privacy{
+    height: 100vh;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.search{
+    height: 100vh;
+    padding-top: 100px;
+}
+.example::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.hoverTwo:hover{
+    cursor:pointer;
+    color:#10588B;
+}
+
+.privBttn{
+    position: relative;
+    bottom: -40%;
+}
+
+.hero{
+    height: 100vh;
+    overflow-y: scroll;
+}

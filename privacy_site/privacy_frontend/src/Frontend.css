@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gwGold{
+    color: #e4cf9f;
+}
+.gwGoldBg{
+    background-color: #e4cf9f;
+}
+#gwLogo{
+    width: 20%;
+    height: auto;
+}
+.gwBlue{
+    color: #0b3b5d;
+}
+.gwBlueBg{
+    background-color: #0b3b5d;
+}
+.noBorder{
+    border: none;
+}
+.nudgeRightSearch{
+    padding-right: 0%;
+    padding-left: 5%;
+
+}
+.nudgeRight{
+    padding-left: 1%;
+    padding-right: 0%;
+}
+
+.nudgeRightMore{
+    padding-left: 10%;
+    padding-right: 0%;
+}
+.devBorder{
+    border: 2px solid red;
+}
+
+.searchIcon{
+    size: 10px;
+}
+
+
+#nav-dropdown{
+    background-color: #0b3b5d;
+}
+
